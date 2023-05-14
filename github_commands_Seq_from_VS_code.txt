@@ -1,0 +1,29 @@
+How to start commiting code using Visual studio terminal to github repo
+
+1. install git
+2.create a new repo in github
+
+use the following coomands in the same order:
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Roi12313/ch.git
+git push -u origin main
+
+
+To push new changes later do the following commands
+
+git status -s          //will show me that foo.java has changed
+
+git add.    //will add it to my local repo (or to add all new files at once do  
+
+git commit -m "my changes"      //commit to the local repo
+
+
+git push -u origin main       //finally, move the local commit to the remote repo with the new tag. this will prompt for your password. if no tag is set as in step 4, then just
+
+if there is an error then force push using the below
+
+git push -f origin main   
